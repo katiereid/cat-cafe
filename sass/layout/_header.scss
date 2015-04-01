@@ -1,0 +1,17 @@
+.mainNav {
+  width: $full-width;
+  background-color: $primary-color;
+
+  ul {
+    text-align: right;
+    padding: 2em;
+
+    li {
+      padding-left: .5em;
+      padding-right: .5em;
+      display: inline;
+    }
+  }
+}
+
+

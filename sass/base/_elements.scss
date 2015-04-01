@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+}
+
+body {
+  font-family: $body-font;
+  text-align: center;
+  color: $font-color;
+}
+
+a {
+  text-decoration: none;
+  color: $font-color;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+h1 {
+  font-family: $header-font;
+  font-size: $large-header;
+}
+
+q {
+  line-height: 1.5em;
+}

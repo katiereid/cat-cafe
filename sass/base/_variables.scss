@@ -1,0 +1,26 @@
+// Colors
+//---------------------------------------------
+$primary-color: #52CBA0; //teal
+$secondary-color: #8A8A8A; //gray
+$tertiary-color: #FF5237; //coral
+$white: #FFF;
+
+$dark-gray: darken($secondary-color, 50%);
+
+
+// Font
+//---------------------------------------------
+$font-color: $dark-gray;
+$body-font: 'Lora', serif;
+$header-font: 'Satisfy', cursive;
+$italic-font: 400italic; //font-weight value
+
+// Text size
+//---------------------------------------------
+$extra-large-header: 4.236em;
+$large-header: 2.618em;
+$small-header: 1.618em;
+
+// Layout
+//---------------------------------------------
+$full-width: 100%;

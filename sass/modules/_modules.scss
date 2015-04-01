@@ -1,0 +1,57 @@
+.headerImage {
+  position: relative;
+  width: $full-width;
+  z-index: -1
+}
+
+.titleBox {
+  position: absolute;
+  top: 10em;
+  left: 5em;
+  color: $white;
+}
+
+.titleText {
+  font-family: $header-font;
+  font-size: $extra-large-header;
+}
+
+.subTitleText {
+  font-family: $body-font;
+  font-size: $small-header;
+  padding-top: 1em;
+}
+
+.formSection {
+  @include padding(5em, 2em);
+}
+
+.smallPadding {
+  @include padding(2em, 2em);
+}
+
+.contactForm {
+  @include padding(1.5em, 5em);
+
+  li {
+    @include padding(.2em, 0);
+  }
+}
+
+.primaryColor {
+  background-color: $primary-color;
+}
+
+.secondaryColor {
+  background-color: $secondary-color;
+}
+
+.tertiaryColor {
+  background-color: $tertiary-color;
+}
+
+.roundImage {
+  width: 200px;
+  border-radius: 50%;
+}
+
